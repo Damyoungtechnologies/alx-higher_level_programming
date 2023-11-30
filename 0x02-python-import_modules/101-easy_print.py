@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-exec("print('#pythoniscool')")
 
+import python_for_m
