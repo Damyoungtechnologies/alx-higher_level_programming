@@ -35,12 +35,12 @@ static PyMethodDef module_methods[] = {
 
 static struct PyModuleDef module_def = {
     PyModuleDef_HEAD_INIT,
-    "my_module",
+    "PyList",
     NULL,
     -1,
     module_methods};
 
-PyMODINIT_FUNC PyInit_my_module(void)
+PyMODINIT_FUNC PyInit_PyList(void)
 {
     return PyModule_Create(&module_def);
 }
