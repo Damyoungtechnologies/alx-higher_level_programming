@@ -1,1 +1,1 @@
-Python input and output object
+Python input and output function
